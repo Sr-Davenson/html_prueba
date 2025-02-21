@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Datos</h1>
+    <form action="#">
+        <label>Nombre: </label>
+        <input type="text" name="nom" placeholder="Ingrese su nombre :vv" disabled>
+        <br>
+        <label >Apellido:</label>
+        <input type="text" name="apell" value="Gil" placeholder="Ingrese su apellido" readonly>
+        <div>
+            <label >E-mail</label>
+            <input type="email" name="correo" placeholder="Ingrese su correo" required>
+            <button>b</button>
+        </div>
+        <div>
+            <label>Edad: </label>
+            <input type="number" name="edad" value="18" min="1" max="120">
+        </div>
+        <div>  
+            <label >Descripcion</label>
+            <input type="text" name="desc" placeholder="Ingrese su apellido" maxlength="5">
+        </div>
+        <fieldset>
+            <legend>Datos de la u ._.</legend>
+            <label>Fecha matricula</label>
+            <input type="date" name="Fecha" id="">
+            <input type="color" name="colo" id="">
+            <input type="datetime-local" name="Fechaa" id="">
+        </fieldset>
+        <div>
+            <label>Foto</label>
+            <input type="file" name="Foto" id="">
+        </div>
+        <div>
+            <label>Contraseña</label>
+            <input type="password" name="contra">
+        </div>
+        <div>
+            <label>Clasificación 1
+                <input type="radio" name="califica" value="a" >
+            </label>
+            <label>Clasificación 2
+                <input type="radio" name="califica" value="b" checked>
+            </label>
+            <label>Clasificación 3
+                <input type="radio" name="califica" value="c">
+            </label>
+        </div>
+        <fieldset>
+            <legend>Listas :D</legend>
+            <label><input type="checkbox" name="opc1" value="a"  checked>
+                Opcion 1
+            </label>
+            <label><input type="checkbox" name="opc2" value="a" >
+                Opcion 2
+            </label>
+            <label><input type="checkbox" name="opc3" value="a" >
+                Opcion 3
+            </label>
+        </fieldset>
+        <div>
+            <label>Ciudad</label>
+            <select name="Ciudad">
+                <option value="1">Tunja</option>
+                <option value="2">Duitama</option>
+                <option value="3" selected>Sogamoso</option>
+            </select>
+        </div>
+        <fieldset>
+            <label>Observaciones <textarea name="espacio" cols="10" rows="5">
+                p
+            </textarea></label>
+        </fieldset>
+        <div>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpiar</button>
+        </div>
+        <div>
+            <label for="">Codigo</label>
+            <input type="hidden" name="cod" value="123">
+        </div>
+    </form>
+    <form action="index.html" method="get">
+        <button type="button">Volver</button>
+    </form>
+    <a href="index.html">Volver</a>
+</body>
+</html>

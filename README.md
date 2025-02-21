@@ -1,2 +1,2 @@
-# proyecto_1
-hola mundo.
+# 2025_programacion_g1
+Para la clase de programación
